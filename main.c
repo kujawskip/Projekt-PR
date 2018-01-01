@@ -1,4 +1,5 @@
 #include "stdio.h"
+#include "stdlib.h"
 
 void swap(int* array,int index1,int index2)
 {
