@@ -6,13 +6,13 @@ for i in $( seq 0 $tries )
 do
 entries=($(shuf -i 0-20000 -n "${count}"))
 echo "${entries[@]}";
-time ./main "${entries[@]}";
+time ./main 10 "${entries[@]}";
 done
 echo "${count} length ; reverse order"
 for i in $( seq 0 $tries )
 do
 entries=($(shuf -i 0-20000 -n "${count}" | sort -rn))
 echo "${entries[@]}";
-time ./main "${entries[@]}";
+time ./main 10 "${entries[@]}";
 done
 done
