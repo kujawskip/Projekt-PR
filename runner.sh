@@ -1,18 +1,23 @@
-tries=10
-for count in 10 100 1000 10000
+tries=1
+for threads in 1 2
 do
-echo "${count} length ; random order"
+for count in 121000
+do
+printf $"\n ${count} length ; ${threads} threads; random order"
 for i in $( seq 0 $tries )
 do
-entries=($(shuf -i 0-20000 -n "${count}"))
-echo "${entries[@]}";
-time ./main 10 "${entries[@]}";
+rm input.in;
+countN=$count;
+while [ $countN -gt 0 ]; do
+if [ $countN -gt 20000 ]; then
+countS=20000
+else 
+countS=$countN
+fi
+shuf -i 0-100000 -n $countS | tr " " "\n" >> input.in; 
+countN=$[countN-20000];
 done
-echo "${count} length ; reverse order"
-for i in $( seq 0 $tries )
-do
-entries=($(shuf -i 0-20000 -n "${count}" | sort -rn))
-echo "${entries[@]}";
-time ./main 10 "${entries[@]}";
+./main $threads input.in -q;
+done
 done
 done
