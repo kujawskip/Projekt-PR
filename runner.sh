@@ -1,7 +1,7 @@
-tries=1
-for threads in 1 2
+tries=5
+for threads in 1 2 3 4
 do
-for count in 121000
+for count in 51000
 do
 printf $"\n ${count} length ; ${threads} threads; random order"
 for i in $( seq 0 $tries )

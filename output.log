@@ -1,7 +1,29 @@
 
- 121000 length ; 1 threads; random order
-time: 20.618989
-time: 19.748616
- 121000 length ; 2 threads; random order
-time: 20.342100
-time: 20.652888
+ 51000 length ; 1 threads; random order
+time: 3.173911
+time: 3.212056
+time: 3.095829
+time: 3.296696
+time: 3.596277
+time: 3.318574
+ 51000 length ; 2 threads; random order
+time: 1.805087
+time: 1.854571
+time: 1.799349
+time: 1.851088
+time: 1.761854
+time: 1.832643
+ 51000 length ; 3 threads; random order
+time: 2.018656
+time: 1.932281
+time: 1.964975
+time: 2.011049
+time: 2.014146
+time: 2.062875
+ 51000 length ; 4 threads; random order
+time: 1.731599
+time: 1.839881
+time: 1.852835
+time: 1.982337
+time: 1.864049
+time: 1.895276
