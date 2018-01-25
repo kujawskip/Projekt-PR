@@ -1,5 +1,5 @@
 make: main.c
-	gcc -march=native -O2 -fopenmp -o main main.c;
+	mpicc -march=native -O2 -o main main.c;
 clean: main
 	rm main
 	
