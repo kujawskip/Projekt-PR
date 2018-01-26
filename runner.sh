@@ -17,7 +17,7 @@ fi
 shuf -i 0-100000 -n $countS | tr " " "\n" >> input.in; 
 countN=$[countN-20000];
 done
-./main $threads input.in -q;
+mpiexec -n $threads ./main input.in -q -q;
 done
 done
 done

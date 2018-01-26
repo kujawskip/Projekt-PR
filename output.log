@@ -1,113 +1,209 @@
 
- 50000 length ; 1 threads; random order
-time: 3.379257
-time: 3.255657
-time: 3.287499
-time: 3.272450
-time: 3.272036
-time: 3.295285
- 75000 length ; 1 threads; random order
-time: 7.534040
-time: 7.538784
-time: 7.547487
-time: 7.508752
-time: 7.672060
-time: 7.774545
- 100000 length ; 1 threads; random order
-time: 13.653083
-time: 13.863119
-time: 13.679822
-time: 13.578656
-time: 14.016289
-time: 13.691864
- 125000 length ; 1 threads; random order
-time: 21.378872
-time: 21.406921
-time: 22.231053
-time: 21.391297
-time: 21.188998
-time: 21.021523
- 50000 length ; 2 threads; random order
-time: 2.149595
-time: 2.141712
-time: 2.169946
-time: 2.079323
-time: 2.186382
-time: 2.183180
- 75000 length ; 2 threads; random order
-time: 4.924601
-time: 4.885301
-time: 4.943282
-time: 4.878983
-time: 4.826648
-time: 5.001715
- 100000 length ; 2 threads; random order
-time: 8.612634
-time: 8.895257
-time: 8.651334
-time: 8.844050
-time: 9.244058
-time: 8.934533
- 125000 length ; 2 threads; random order
-time: 13.714641
-time: 14.201283
-time: 14.149095
-time: 13.821377
-time: 13.668355
-time: 13.676608
- 50000 length ; 3 threads; random order
-time: 2.114999
-time: 2.096862
-time: 2.118556
-time: 2.121310
-time: 2.071704
-time: 2.076373
- 75000 length ; 3 threads; random order
-time: 4.820879
-time: 4.796289
-time: 4.819721
-time: 4.802361
-time: 5.030143
-time: 4.794159
- 100000 length ; 3 threads; random order
-time: 9.023927
-time: 8.635487
-time: 8.754735
-time: 8.926102
-time: 9.069792
-time: 8.676210
- 125000 length ; 3 threads; random order
-time: 13.897547
-time: 13.999493
-time: 13.721840
-time: 13.730878
-time: 13.744506
-time: 13.802148
- 50000 length ; 4 threads; random order
-time: 2.528672
-time: 2.553184
-time: 2.381741
-time: 2.726925
-time: 2.460894
-time: 2.473725
- 75000 length ; 4 threads; random order
-time: 6.013795
-time: 5.505365
-time: 5.372587
-time: 5.628301
-time: 5.452294
-time: 5.498537
- 100000 length ; 4 threads; random order
-time: 9.688805
-time: 9.338953
-time: 9.578154
-time: 9.334160
-time: 9.676464
-time: 9.137568
- 125000 length ; 4 threads; random order
-time: 14.824311
-time: 14.934444
-time: 15.088327
-time: 15.076328
-time: 15.147883
-time: 14.741859
+ 50000 length ; 1 threads; random orderresult 0
+
+time: 4.377750result 0
+
+time: 4.346928result 0
+
+time: 4.338938result 0
+
+time: 4.355309result 0
+
+time: 4.421896result 0
+
+time: 4.586771
+ 75000 length ; 1 threads; random orderresult 0
+
+time: 10.085986result 0
+
+time: 10.050464result 0
+
+time: 10.042197result 0
+
+time: 10.159212result 0
+
+time: 10.043280result 0
+
+time: 10.048943
+ 100000 length ; 1 threads; random orderresult 0
+
+time: 17.830466result 0
+
+time: 18.894759result 0
+
+time: 18.403370result 0
+
+time: 18.716549result 0
+
+time: 20.428961result 0
+
+time: 18.615128
+ 125000 length ; 1 threads; random orderresult 0
+
+time: 29.172608result 0
+
+time: 29.167298result 0
+
+time: 29.709773result 0
+
+time: 28.923115result 0
+
+time: 28.579964result 0
+
+time: 28.372524
+ 50000 length ; 2 threads; random orderresult 0
+
+time: 4.174669result 0
+
+time: 4.222086result 0
+
+time: 4.166905result 0
+
+time: 4.342561result 0
+
+time: 4.268848result 0
+
+time: 4.151460
+ 75000 length ; 2 threads; random orderresult 0
+
+time: 11.444085result 0
+
+time: 9.697844result 0
+
+time: 9.606802result 0
+
+time: 9.799814result 0
+
+time: 9.171368result 0
+
+time: 9.263968
+ 100000 length ; 2 threads; random orderresult 0
+
+time: 16.638440result 0
+
+time: 17.074899result 0
+
+time: 16.778110result 0
+
+time: 16.804313result 0
+
+time: 16.661713result 0
+
+time: 16.650992
+ 125000 length ; 2 threads; random orderresult 0
+
+time: 25.745827result 0
+
+time: 26.064702result 0
+
+time: 26.016514result 0
+
+time: 25.518025result 0
+
+time: 25.525758result 0
+
+time: 25.655291
+ 50000 length ; 3 threads; random orderresult 0
+
+time: 4.935753result 0
+
+time: 5.081208result 0
+
+time: 4.912935result 0
+
+time: 5.555680result 0
+
+time: 4.924779result 0
+
+time: 4.956257
+ 75000 length ; 3 threads; random orderresult 0
+
+time: 11.019117result 0
+
+time: 11.151796result 0
+
+time: 11.019914result 0
+
+time: 10.619112result 0
+
+time: 10.819965result 0
+
+time: 10.869949
+ 100000 length ; 3 threads; random orderresult 0
+
+time: 19.094057result 0
+
+time: 19.277555result 0
+
+time: 18.790735result 0
+
+time: 19.219891result 0
+
+time: 21.820720result 0
+
+time: 21.486302
+ 125000 length ; 3 threads; random orderresult 0
+
+time: 29.559310result 0
+
+time: 29.994985result 0
+
+time: 30.159890result 0
+
+time: 30.552963result 0
+
+time: 30.245056result 0
+
+time: 28.743007
+ 50000 length ; 4 threads; random orderresult 0
+
+time: 6.236895result 0
+
+time: 6.190654result 0
+
+time: 6.028646result 0
+
+time: 6.124496result 0
+
+time: 6.305947result 0
+
+time: 6.052381
+ 75000 length ; 4 threads; random orderresult 0
+
+time: 13.403909result 0
+
+time: 13.844771result 0
+
+time: 13.146543result 0
+
+time: 13.141323result 0
+
+time: 18.123805result 0
+
+time: 13.017154
+ 100000 length ; 4 threads; random orderresult 0
+
+time: 22.559565result 0
+
+time: 22.322783result 0
+
+time: 22.529426result 0
+
+time: 22.893615result 0
+
+time: 22.491676result 0
+
+time: 22.354914
+ 125000 length ; 4 threads; random orderresult 0
+
+time: 33.994142result 0
+
+time: 33.900313result 0
+
+time: 34.002059result 0
+
+time: 34.184025result 0
+
+time: 40.962442result 0
+
+time: 35.497741
